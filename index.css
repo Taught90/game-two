@@ -4,7 +4,7 @@ body{
     height: 100vh;
     align-items: center;
     justify-content: center;
-    background: url(UTILS/wp9580366-bible-verse-desktop-hd-wallpapers.jpg);
+    background: linear-gradient(#747474cc, #ccc);
 }
 .btn::before{
     position: absolute;
@@ -156,8 +156,9 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    width: 50vw;
+    width: 80vw;
     height: 50vh;
+    background: #ffffff2f;
 }
 .container-1 .emoji{
     display: flex;
@@ -212,10 +213,7 @@ img{
 @media (max-width:600px) {
     .hi{
         font-size: 22px;
-    } 
-    .container-1 {
-        width: 60vh;
-    } 
+    }
     .container-1 h1{
         font-size: 18px;
     }
