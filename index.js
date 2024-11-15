@@ -50,7 +50,7 @@ const hello = [
     { word: 'glad', delay: 450 },
     { word: 'in', delay: 500 },
     { word: 'it,', delay: 500 },
-    { word: '...', delay: 500 },
+    { word: '...', delay: 800 },
     { word: 'This', delay: 230 },
     { word: 'is', delay: 800 },
     { word: 'the', delay: 230 },
@@ -80,7 +80,7 @@ const hello = [
     { word: 'the', delay: 400 },
     { word: 'Lord', delay: 1000 },
     { word: 'has', delay: 1000 },
-    { word: 'made...', delay: 900 },
+    { word: 'made...', delay: 800 },
 ]
 function clearlyrics() {
     hi.innerHTML = '';
@@ -115,7 +115,7 @@ btn.addEventListener('click', () => {
     btn.style.display = 'none';
     setTimeout(() => {
         btn2.style.display = 'flex';
-    }, 40000);
+    }, 0000);
     if (music.paused) {
         music.currentTime = 0;
         music.play();
