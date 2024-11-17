@@ -115,7 +115,7 @@ btn.addEventListener('click', () => {
     btn.style.display = 'none';
     setTimeout(() => {
         btn2.style.display = 'flex';
-    }, 0000);
+    }, 40000);
     if (music.paused) {
         music.currentTime = 0;
         music.play();
